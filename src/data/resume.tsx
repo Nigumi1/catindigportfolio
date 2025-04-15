@@ -121,7 +121,7 @@ export const DATA = {
       degree: "Bachelor of Science in Information Technology",
       location: "Biñan, Philippines",
       logoUrl: "/AMA.jpg",
-      start: "2023",
+      start: "2021",
       end: "2025",
     },
   ],
