@@ -151,7 +151,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/hanoy-footwear-vid.webm",
+        "/hanoy-footwear-1.png",
       carousel: [
         {src: "/hanoy-footwear-1.png"},
         {src: "/hanoy-footwear-2.png"},
@@ -191,7 +191,7 @@ export const DATA = {
         },
       ],
       image: "",
-      video: "/Voice-command.webm",
+      video: "/voice-command-1.jpg",
       carousel: [
         {src: "/voice-command-1.jpg"},
         {src: "/voice-command-2.jpg"},
@@ -255,7 +255,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/attendance-hrprimo.webm",
+        "/attendance-1.jpg",
       carousel: [
         {src: "/attendance-6.jpg"},
         {src: "/attendance-1.jpg"},
