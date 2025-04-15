@@ -149,9 +149,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/hanoy-footwear-1.png",
       video:
-        "/hanoy-footwear-1.png",
+        "",
       carousel: [
         {src: "/hanoy-footwear-1.png"},
         {src: "/hanoy-footwear-2.png"},
@@ -190,8 +190,8 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
-      video: "/voice-command-1.jpg",
+      image: "/voice-command-1.jpg",
+      video: "",
       carousel: [
         {src: "/voice-command-1.jpg"},
         {src: "/voice-command-2.jpg"},
@@ -253,9 +253,9 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "/attendance-1.jpg",
       video:
-        "/attendance-1.jpg",
+        "",
       carousel: [
         {src: "/attendance-6.jpg"},
         {src: "/attendance-1.jpg"},
