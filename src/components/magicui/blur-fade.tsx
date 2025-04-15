@@ -25,17 +25,30 @@ const BlurFade = ({
   delay = 0,
   yOffset = 6,
   inView = false,
-  inViewMargin = "-50px",
+  inViewMargin = "0px 0px -50px 0px",
   blur = "6px",
 }: BlurFadeProps) => {
+  function normalizeMargin(margin: string): string {
+    const parts = margin.trim().split(" ");
+    if (parts.length === 1) {
+      return `0px 0px ${margin} 0px`;
+    }
+    return margin;
+  }
+  
   const ref = useRef(null);
-  const inViewResult = useInView(ref, { once: true, margin: inViewMargin });
+  const inViewResult = useInView(ref, {
+    once: true,
+    amount: 0.5, // or a number between 0 and 1
+  });
   const isInView = !inView || inViewResult;
   const defaultVariants: Variants = {
     hidden: { y: yOffset, opacity: 0, filter: `blur(${blur})` },
     visible: { y: -yOffset, opacity: 1, filter: `blur(0px)` },
   };
   const combinedVariants = variant || defaultVariants;
+
+  
   return (
     <AnimatePresence>
       <motion.div
