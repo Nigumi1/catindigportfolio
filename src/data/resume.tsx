@@ -151,7 +151,7 @@ export const DATA = {
       ],
       image: "",
       video:
-        "/hanoy-footwear.webm",
+        "/hanoy-footwear-vid.webm",
       carousel: [
         {src: "/hanoy-footwear-1.png"},
         {src: "/hanoy-footwear-2.png"},
