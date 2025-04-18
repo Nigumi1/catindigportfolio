@@ -20,7 +20,7 @@ export const metadata = {
   description: 'A highly skilled Full-Stack Developer/Software Engineer with extensive experience in designing, developing, and maintaining dynamic web applications.',
   openGraph: {
     title: 'John Carlo Catindig – Full-stack Web Developer',
-    description: 'Check out my latest work and web dev projects.',
+    description: 'A highly skilled Full-Stack Developer/Software Engineer with extensive experience in designing, developing, and maintaining dynamic web applications.',
     url: 'https://catindigportfolio.netlify.app/',
   },
 };
