@@ -4,9 +4,9 @@ import { HomeIcon, User, FolderOpenDot, File } from "lucide-react";
 export const DATA = {
   name: "John Carlo Catindig",
   initials: "JC",
-  url: "https://dillion.io",
-  location: "San Francisco, CA",
-  locationLink: "https://www.google.com/maps/place/sanfrancisco",
+  url: "https://catindigportfolio.netlify.app/",
+  location: "Santa Rosa City, Philippines",
+  locationLink: "https://www.google.com/maps/place/Santa+Rosa,+Laguna/",
   languages: [
     "English",
     "Tagalog",
