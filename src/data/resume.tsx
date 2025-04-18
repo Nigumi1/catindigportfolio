@@ -43,10 +43,11 @@ export const DATA = {
     social: {
       GitHub: {
         name: "GitHub",
-        url: "https://dub.sh/dillion-github",
+        url: "https://github.com/Nigumi1",
         icon: Icons.github,
 
-        navbar: false,
+        navbar: true,
+        info: true,
       },
       LinkedIn: {
         name: "LinkedIn",
@@ -186,7 +187,7 @@ export const DATA = {
         },
         {
           type: "Source",
-          href: "",
+          href: "https://github.com/Nigumi1/Voice-Controlled-Learning-Portal",
           icon: <Icons.github className="size-3" />,
         },
       ],
