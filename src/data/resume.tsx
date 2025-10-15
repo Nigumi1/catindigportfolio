@@ -98,7 +98,7 @@ export const DATA = {
     {
       company: "NeuralCore",
       href: "https://neuralcoredev.com/",
-      // badges: [ "Freelance"],
+      badges: ["Freelance"],
       location: "Remote",
       title: "Fullstack Web Developer",
       logoUrl: "/neuralcore.jpg",
