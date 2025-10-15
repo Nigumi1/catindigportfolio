@@ -80,7 +80,7 @@ export const DATA = {
       },
       CV: {
         name: "View CV",
-        url: "/JC CV.pdf",
+        url: "/JohnCarloCatindig_SoftwareEngineer_Resume.pdf",
         icon: File,
         navbar: false,
 
