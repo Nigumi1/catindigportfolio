@@ -13,9 +13,9 @@ export const DATA = {
   ],
 
   description:
-    "Fullstack Web-Developer | Freelancer. Turning your ideas into stunning realities.",
+    "Software Engineer. Turning your ideas into stunning realities.",
   summary:
-    "A highly skilled Full-Stack Developer/Software Engineer with extensive experience in designing, developing, and maintaining dynamic web applications. Specializing in PHP, JavaScript,Laravel, Reactjs and Vue.js. Proficient in working with RESTful APIs, modern JavaScript frameworks, and database technologies to deliver high-quality solutions tailored to meet business and technical needs.Continuously improving technical skills and staying ahead of industry trends. Delivers exceptional user experiences aligned with client goals and organizational objectives.",
+    "Software Engineer with hands-on experience developing and maintaining web and backend applications. Proficient in PHP, JavaScript, Vue.js, MySQL, and ASP.NET Core Web API. Skilled in RESTful API design, database management, and version control (Git). Passionate about building efficient, secure, and maintainable software solutions while continuously learning new technologies and collaborating in Agile teams.",
   avatarUrl: "/BTS00389.jpg",
   skills: [
     "PHP",
