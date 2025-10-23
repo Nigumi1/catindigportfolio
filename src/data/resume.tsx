@@ -34,6 +34,7 @@ export const DATA = {
     "MSSQL",
     "Git & GitHub",
     "Postman",
+    "Scalar",
     "Visual Studio",
     "VS Code",
   ],
@@ -132,6 +133,40 @@ export const DATA = {
     },
   ],
   projects: [
+    {
+      title: "Brew Szn Inventory Management System",
+      slug: "brew-szn", 
+      href: "https://brew-szn.free.nf/",
+      dates: "May 2025",
+      active: true,
+      overview:
+        "A comprehensive inventory management system designed to streamline ingredient and product tracking for Brew SZN.",
+      description:
+        "A comprehensive inventory management system designed to streamline ingredient and product tracking for Brew SZN. The system features an intuitive dashboard that provides real-time insights into ingredient stock levels, including notifications for low and critical stock items. Key features include ingredient management, product management, stock monitoring, and automated deduction tracking. Users can efficiently create, edit, and delete ingredients and products, while the system automatically deducts both product quantities and their corresponding ingredient usage. The dashboard also displays total product sales and inventory movements, enabling data-driven decision-making and efficient inventory control.",
+      technologies: [
+        "Laravel",
+        "ReactJs",
+        "InertiaJS",
+        "MySQL",
+        "TailwindCSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://brew-szn.free.nf/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "/brewszn1.png",
+      video:
+        "",
+      carousel: [
+        {src: "/brewszn1.png"},
+        {src: "/brewszn2.png"},
+        {src: "/brewszn3.png"},
+        {src: "/brewszn4.png"}
+      ],
+    },
     {
       title: "Hanoy's Footwear E-Commerce Website (Capstone Project)",
       slug: "hanoy-footwear", 
